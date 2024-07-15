@@ -1,0 +1,10 @@
+{
+  "produtos": [
+    {
+      "nome": "Boneco",
+      "preco": "25,50",
+      "imagem": "https://github.com/JoaoAlisonTI.png",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+/* RESET CSS */
+
+
+/* Fontes do texto */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* Reset de todas as margens, paddings e box-sizing */
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Definição da fonte base para o body */
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+
+/* Estilo para os títulos */
+h2{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Remoção do estilo de lista para list items */
+li{
+    list-style: none;
+}
+
+/* Estilo para botões */
+button {
+    background: none;
+    border: none;
+}
